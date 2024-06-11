@@ -1,4 +1,4 @@
-# Media Player Extension based on Androidx Media3 Library for AppInventor, Kodular and Niotron, Media3 is upgraded version of Exoplayer
+## Media Player Extension based on Androidx Media3 Library for AppInventor, Kodular and Niotron, Media3 is upgraded version of Exoplayer
 
 Hello dear! it's **Media Player Extension based on Androidx Media3 Library** in this extension i used Androidx Media3 library **version 1.3.1** it's latest version of Media3. Why i not used **Exoplayer library** to create this extension because Exoplayer is deprecated and google will not continue exoplayer because **Google launched Media3, Media3 contains all exciting Exoplayer features and even more** basically **Media3** is upgraded version of **Exoplayer**.
 Our extension support all Media protocols like MP4, HLS, DASH, RTSP and SmoothStreaming. This Extension will be best choice for **Developers** who demand the best performance and flexibility in media.
@@ -37,7 +37,7 @@ Our extension support all Media protocols like MP4, HLS, DASH, RTSP and SmoothSt
 
 # Events
 
-# OnAudioSessionIdChanged
+### OnAudioSessionIdChanged
 
 ![OnAudioSessionIdChanged](images/OnAudioSessionIdChanged.png)
 
@@ -45,7 +45,7 @@ Our extension support all Media protocols like MP4, HLS, DASH, RTSP and SmoothSt
 
 audioSessionId = **Number**
 
-# OnControlsVisibilityChanged
+### OnControlsVisibilityChanged
 
 ![OnAudioSessionIdChanged](images/OnControlsVisibilityChanged.png)
 
@@ -53,7 +53,7 @@ audioSessionId = **Number**
 
 visible = **Boolean**
 
-# OnCues
+### OnCues
 
 ![OnCues](images/OnCues.png)
 
@@ -61,7 +61,7 @@ visible = **Boolean**
 
 cues = **List**
 
-# OnFullscreenButtonClick
+### OnFullscreenButtonClick
 
 ![OnFullscreenButtonClick](images/OnFullscreenButtonClick.png)
 
@@ -69,7 +69,7 @@ cues = **List**
 
 isFullscreen = **Boolean**
 
-# OnIsLoadingChanged
+### OnIsLoadingChanged
 
 ![OnIsLoadingChanged](images/OnIsLoadingChanged.png)
 
@@ -77,7 +77,7 @@ isFullscreen = **Boolean**
 
 isLoading = **Boolean**
 
-# OnIsPlayingChanged
+### OnIsPlayingChanged
 
 ![OnIsPlayingChanged](images/OnIsPlayingChanged.png)
 
@@ -85,7 +85,7 @@ isLoading = **Boolean**
 
 isPlaying = **Boolean**
 
-# OnMaxSeekToPreviousPositionChanged
+### OnMaxSeekToPreviousPositionChanged
 
 ![OnMaxSeekToPreviousPositionChanged](images/OnMaxSeekToPreviousPositionChanged.png)
 
@@ -93,7 +93,7 @@ isPlaying = **Boolean**
 
 maxSeekToPreviousPositionMs = **Number**
 
-# OnMetadataChanged
+### OnMetadataChanged
 
 ![OnMetadataChanged](images/OnMetadataChanged.png)
 
@@ -119,7 +119,7 @@ releaseYear,
 playable
 ```
 
-# OnPlayWhenReadyChanged
+### OnPlayWhenReadyChanged
 
 ![OnPlayWhenReadyChanged](images/OnPlayWhenReadyChanged.png)
 
@@ -128,7 +128,7 @@ playable
 playWhenReady = **Boolean**   
 reason = **Number**
 
-# OnPlaybackStateChanged
+### OnPlaybackStateChanged
 
 ![OnPlaybackStateChanged](images/OnPlaybackStateChanged.png)
 
@@ -136,7 +136,7 @@ reason = **Number**
 
 state = **Number**
 
-# OnPlayerError
+### OnPlayerError
 
 ![OnPlayerError](images/OnPlayerError.png)
 
@@ -144,7 +144,7 @@ state = **Number**
 
 error = **Text**
 
-# OnPositionDiscontinuity
+### OnPositionDiscontinuity
 
 ![OnPositionDiscontinuity](images/OnPositionDiscontinuity.png)
 
@@ -155,7 +155,7 @@ oldPositionMs = **Number**
 newContentPositionMs = **Number**   
 newPositionMs = **Number**   
 
-# OnProgressUpdate
+### OnProgressUpdate
 
 ![OnProgressUpdate](images/OnProgressUpdate.png)
 
@@ -165,13 +165,13 @@ positionMs = **Number**
 bufferedPositionMs = **Number**   
 durationMs = **Number**   
 
-# OnRenderedFirstFrame
+### OnRenderedFirstFrame
 
 ![OnRenderedFirstFrame](images/OnRenderedFirstFrame.png)
 
 **Event raised when video first frame rendered.**
 
-# OnRepeatModeChanged
+### OnRepeatModeChanged
 
 ![OnRepeatModeChanged](images/OnRepeatModeChanged.png)
 
@@ -179,7 +179,7 @@ durationMs = **Number**
 
 repeatMode = **Text**
 
-# OnSeekBackIncrementChanged
+### OnSeekBackIncrementChanged
 
 ![OnSeekBackIncrementChanged](images/OnSeekBackIncrementChanged.png)
 
@@ -187,7 +187,7 @@ repeatMode = **Text**
 
 seekBackIncrementMs = **Number** 
 
-# OnSeekForwardIncrementChanged
+### OnSeekForwardIncrementChanged
 
 ![OnSeekForwardIncrementChanged](images/OnSeekForwardIncrementChanged.png)
 
@@ -195,7 +195,7 @@ seekBackIncrementMs = **Number**
 
 seekForwardIncrementMs = **Number** 
 
-# OnShuffleModeEnabledChanged
+### OnShuffleModeEnabledChanged
 
 ![OnShuffleModeEnabledChanged](images/OnShuffleModeEnabledChanged.png)
 
@@ -203,7 +203,7 @@ seekForwardIncrementMs = **Number**
 
 shuffleModeEnabled = **Boolean** 
 
-# OnTracksChanged
+### OnTracksChanged
 
 ![OnTracksChanged](images/OnTracksChanged.png)
 
@@ -233,7 +233,7 @@ language,
 label
 ```
 
-# OnVolumeChanged
+### OnVolumeChanged
 
 ![OnVolumeChanged](images/OnVolumeChanged.png)
 
@@ -245,7 +245,7 @@ muted = **Boolean**
 
 # Functions
 
-# CustomControls
+### CustomControls
 **Add Custom controls layout in player view.**
 
 ![CustomControls](images/CustomControls.png)
@@ -253,7 +253,7 @@ muted = **Boolean**
 **Required**    
 controlsLayout = **Arrangement**    
 
-# PlayerView
+### PlayerView
 **Create a player view for player.**
 
 ![PlayerView](images/PlayerView.png)
@@ -262,7 +262,7 @@ controlsLayout = **Arrangement**
 playerLayout = **Arrangement**    
 defaultControls = **Boolean** Set False if you set CustomControls
 
-# MovePlayerView
+### MovePlayerView
 **Move player view in another layout..**
 
 ![MovePlayerView](images/MovePlayerView.png)
@@ -271,7 +271,7 @@ defaultControls = **Boolean** Set False if you set CustomControls
 newLayout = **Arrangement**    
 
 
-# CreateTimeBar
+### CreateTimeBar
 
 ![CreateTimeBar](images/CreateTimeBar.png)
 
@@ -282,24 +282,24 @@ layout = **Arrangement**
 ![TimeBarSample](images/TimeBarSample.png)
 
 
-# HideControls
+### HideControls
 **Hide the play view controls**
 
 ![HideControls](images/HideControls.png)
 
-# ShowControls
+### ShowControls
 **Show the play view controls**
 
 ![ShowControls](images/ShowControls.png)
 
-# SetVolume
+### SetVolume
 **Volume must be between device minimum volume to device maximum volume.**
 
 ![SetVolume](images/SetVolume.png)
 
 **Required number**
 
-# SetBrightness
+### SetBrightness
 **Brightness must be 0.1 to 1**
 
 ![SetBrightness](images/SetBrightness.png)
@@ -307,14 +307,14 @@ layout = **Arrangement**
 **Required number**
 
 
-# Subbtitles sample
+### Subbtitles sample
 
 ![Subtitles Sample](images/subtitles_demo.png)
 
 
-# MediaItems
+## MediaItems
 
-# DefaultMediaItem
+### DefaultMediaItem
 **Create MediaItem for player.**
 
 ![DefaultMediaItem](images/DefaultMediaItem.png)
@@ -325,7 +325,7 @@ subtitles = **List**
 
 **Return MediaItem**
 
-# MediaItem
+### MediaItem
 **Create MediaItem for player with custom perameters.**
 
 ![MediaItem](images/MediaItem.png)
@@ -347,7 +347,7 @@ relativeToDefaultPosition = **Boolean**
 
 **Return MediaItem**
 
-# AddMediaItem
+### AddMediaItem
 **Add MediaItem in MediaItemList.**
 
 ![AddMediaItem](images/AddMediaItem.png)
@@ -358,18 +358,18 @@ index = **Number**
 
 mediaItem = **MediaItem**  
 
-# SetMediaItemList
+### SetMediaItemList
 
 ![SetMediaItemList](images/SetMediaItemList.png)
 
 **Required List of MediaItems**
 
-# GetMediaItemList
+### GetMediaItemList
 **Get MediaItem List you seted using SetMediaItemList/AddMediaItem.**
 
 ![GetMediaItemList](images/GetMediaItemList.png)
 
-# RemoveMediaItems
+### RemoveMediaItems
 **Remove MediaItems from MediaItemList.**
 
 ![RemoveMediaItems](images/RemoveMediaItems.png)
@@ -378,7 +378,7 @@ mediaItem = **MediaItem**
 fromIndex = **Number**  
 toIndex = **Number**   
 
-# ClearMediaItemList
+### ClearMediaItemList
 **Clear MediaItem List as you seted using SetMediaItemList/AddMediaItem.**
 
 ![ClearMediaItemList](images/ClearMediaItemList.png)
@@ -391,9 +391,9 @@ toIndex = **Number**
 
 ![DefaultMimeType](images/DefaultMimeType.png)
 
-# MediaSoures
+## MediaSoures
 
-# HlsMediaSource
+### HlsMediaSource
 **Create HlsMediaSource for HLS playback.**
 
 ![HlsMediaSource](images/HlsMediaSource.png)
@@ -416,7 +416,7 @@ timestampAdjusterInitializationTimeoutMs = **Number**
 
 **Return MediaSource**
 
-# RtspMediaSource
+### RtspMediaSource
 
 ![RtspMediaSource](images/RtspMediaSource.png)
 
@@ -433,7 +433,7 @@ forceUseRtpTcp = **Boolean**
 
 **Return MediaSource**
 
-# SsMediaSource
+### SsMediaSource
 **Create SsMediaSource for smooth streaming.**
 
 ![SsMediaSource](images/SsMediaSource.png)
@@ -449,7 +449,7 @@ livePresentationDelayMs = **Number**
 
 **Return MediaSource**
 
-# DashMediaSource
+### DashMediaSource
 **Create DashMediaSource for Dynamic Adaptive Streaming over HTTP (DASH) content.**
 
 ![DashMediaSource](images/DashMediaSource.png)
@@ -467,7 +467,7 @@ minLiveStartPositionUs = **Number**
 
 **Return MediaSource**
 
-# AddMediaSource
+### AddMediaSource
 **Add AddMediaSource in MediaSourceList.**
 
 ![AddMediaSource](images/AddMediaSource.png)
@@ -478,18 +478,18 @@ index = **Number**
 
 mediaSource = **MediaSource**  
 
-# SetMediaSourceList
+### SetMediaSourceList
 
 ![SetMediaSourceList](images/SetMediaSourceList.png)
 
 **Required List of MediaSources**
 
-# GetMediaSourceList
+### GetMediaSourceList
 **Get MediaSource List you seted using SetMediaSourceList/AddMediaSource.**
 
 ![GetMediaSourceList](images/GetMediaSourceList.png)
 
-# RemoveMediaSources
+### RemoveMediaSources
 **Remove MediaSources from MediaSourceList.**
 
 ![RemoveMediaSources](images/RemoveMediaSources.png)
@@ -498,15 +498,15 @@ mediaSource = **MediaSource**
 fromIndex = **Number**  
 toIndex = **Number**   
 
-# ClearMediaSourceList
+### ClearMediaSourceList
 **Clear MediaSource List as you seted using SetMediaSourceList/AddMediaSource.**
 
 ![ClearMediaSourceList](images/ClearMediaSourceList.png)
 
 
-# DrmMedia's
+## DrmMedia's
 
-# DrmMedia 
+### DrmMedia 
 **Create Drm Media for drm encrypted media. this fetch license keys from license url.**
 
 ![DrmMedia](images/DrmMedia.png)
@@ -521,7 +521,7 @@ playClearContentWithoutKey = **Boolean**
 
 **Return DrmMedia**
 
-# LocalDrmMedia
+### LocalDrmMedia
 **Create Drm Media with key id and key.**
 
 ![LocalDrmMedia](images/LocalDrmMedia.png)
@@ -546,13 +546,13 @@ playClearContentWithoutKey = **Boolean**
 
 ![Schemes](images/Schemes.png)
 
-# NoDrmMedia
+### NoDrmMedia
 **Use this if media doesn't required license.**
 
 ![NoDrmMedia](images/NoDrmMedia.png)
 
 
-# HttpDataSource
+### HttpDataSource
 
 ![HttpDataSource](images/HttpDataSource.png)
 
@@ -570,11 +570,11 @@ userAgent = **Text**
 
 **Return HttpDataSource**
 
-# Request Headers sample
+### Request Headers sample
 
 ![Request Headers Sample](images/demo_headers.png)
 
-# SetHttpDataSource
+### SetHttpDataSource
 **Use this only when you use just MediaItems not any MediaSources else this not work. If you're using MediaSources then you can set HttpDataSource directly in MediaSources..**
 
 ![SetHttpDataSource](images/SetHttpDataSource.png)
@@ -583,14 +583,14 @@ userAgent = **Text**
 httpDataSource = **HttpDataSource**    
 
 
-# ShowSpeedSelectionDialog
+### ShowSpeedSelectionDialog
 
 ![ShowSpeedSelectionDialog](images/ShowSpeedSelectionDialog.png)
 
 **Required**    
 title = **Text**    
 
-# ShowTrackSelectionDialog
+### ShowTrackSelectionDialog
 
 ![ShowTrackSelectionDialog](images/ShowTrackSelectionDialog.png)
 
@@ -601,7 +601,7 @@ showDisableOption = **Boolean**
 allowAdaptiveSelections = **Boolean**    
 allowMultipleOverrides = **Boolean**    
 
-# GetTracks
+### GetTracks
 **Get Tracks of current playback content.**
 
 ![GetTracks](images/GetTracks.png)
@@ -611,7 +611,7 @@ trackType = **Number**
 
 **Return List of Dictionary**
 
-# SelectTrack
+### SelectTrack
 **Select track from current tracks.**
 
 ![SelectTrack](images/SelectTrack.png)
@@ -621,19 +621,19 @@ trackType = **Number**
 index = **Number**    
 **Set index 0 for Auto.**  
 
-# TrackTypes
+### TrackTypes
 
 ![TrackTypes](images/TrackTypes.png)
 
-# SeekToPrevious
+### SeekToPrevious
 
 ![SeekToPrevious](images/SeekToPrevious.png)
 
-# SeekToNext
+### SeekToNext
 
 ![SeekToNext](images/SeekToNext.png)
 
-# SeekTo
+### SeekTo
 **Seek to a specific position, set position in milliseconds.**
 
 ![SeekTo](images/SeekTo.png)
@@ -641,53 +641,53 @@ index = **Number**
 **Required**    
 positionMs = **Number**    
 
-# Rewind
+### Rewind
 **Set rewind milliseconds in properties mean how much they should rewind.**
 
 ![Rewind](images/Rewind.png)
 
-# FastForward
+### FastForward
 **Set FastForward milliseconds in properties mean how much they should forward.**
 
 ![FastForward](images/FastForward.png)
 
-# Prepare
+### Prepare
 **Call this before calling Play.**
 
 ![Prepare](images/Prepare.png)
 
-# Play
+### Play
 **Call this after calling Prepare.**
 
 ![Play](images/Play.png)
 
-# Pause
+### Pause
 **Pause current player.**
 
 ![Pause](images/Pause.png)
 
-# Resume
+### Resume
 **Resume current player.**
 
 ![Resume](images/Resume.png)
 
-# Stop 
+### Stop 
 **Stop current player.**
 
 ![Stop](images/Stop.png)
 
-# Release 
+### Release 
 **Release current player.**
 
 ![Release](images/Release.png)
 
-# Destroy 
+### Destroy 
 **Destroy current player, Note this reset all functions and properties before you called.**
 
 ![Destroy](images/Destroy.png)
 
 
-# Format
+### Format
 **Format milliseconds to in time.**
 
 ![Format](images/Format.png)
@@ -698,178 +698,178 @@ ms = **Number**
 
 # Properties
 
-# AutoHideControls
+### AutoHideControls
 **Set controls will auto hide after timeout.**
 
 ![AutoHideControls](images/AutoHideControls.png)
 
 **Required Boolean**
 
-# AutoShowControls
+### AutoShowControls
 **Set controls will auto show.**
 
 ![AutoShowControls](images/AutoShowControls.png)
 
 **Required Boolean**
 
-# BufferingColor
+### BufferingColor
 **Set center progress color.**
 
 ![BufferingColor](images/BufferingColor.png)
 
 **Required Color**
 
-# BufferedPercentage
+### BufferedPercentage
 **Return current BufferedPercentage in Number.**
 
 ![BufferedPercentage](images/BufferedPercentage.png)
 
-# BufferedPosition
+### BufferedPosition
 **Return current BufferedPosition in Number.**
 
 ![BufferedPosition](images/BufferedPosition.png)
 
-# ControlsTimeout
+### ControlsTimeout
 **Set ControlsTimeout in milliseconds.**
 
 ![ControlsTimeout](images/ControlsTimeout.png)
 
 **Required Number**
 
-# CurrentBrightness
+### CurrentBrightness
 **Return current CurrentBrightness in Number.**
 
 ![CurrentBrightness](images/CurrentBrightness.png)
 
-# CurrentMediaItemIndex
+### CurrentMediaItemIndex
 **Return current MediaItem/MediaSource index in Number.**
 
 ![CurrentMediaItemIndex](images/CurrentMediaItemIndex.png)
 
-# CurrentPosition
+### CurrentPosition
 **Return current playback position in Milliseconds (Number).**
 
 ![CurrentPosition](images/CurrentPosition.png)
 
-# CurrentVolume
+### CurrentVolume
 **Return current device volume in Number.**
 
 ![CurrentVolume](images/CurrentVolume.png)
 
-# Customize TimeBar
+### Customize TimeBar
 **Required Color**
 
 ![TimebarColors](images/TimebarColors.png)
 
 ![Timebar_details](images/Timebar_details.png)
 
-# FastForwardMs
+### FastForwardMs
 **Set FastForward in milliseconds, How should forward after calling FastForward function.**
 
 ![FastForwardMs](images/FastForwardMs.png)
 
 **Required Number**
 
-# HasNext
+### HasNext
 **This return true if next MediaItem/MediaSource available, Return type Boolean.**
 
 ![HasNext](images/HasNext.png)
 
-# HasPrevious
+### HasPrevious
 **This return true if previous MediaItem/MediaSource available, Return type Boolean.**
 
 ![HasPrevious](images/HasPrevious.png)
 
 **Required Number**
 
-# HideControlsOnTouch
+### HideControlsOnTouch
 **Set controls should hide on touch.**
 
 ![HideControlsOnTouch](images/HideControlsOnTouch.png)
 
 **Required Boolean**
 
-# IsControlsFullVisible
+### IsControlsFullVisible
 **This return true if controls visible, Return type Boolean.**
 
 ![IsControlsFullVisible](images/IsControlsFullVisible.png)
 
-# IsSeekBackAvailable
+### IsSeekBackAvailable
 **This return true if seek back/rewind available, Return type Boolean.**
 
 ![IsSeekBackAvailable](images/IsSeekBackAvailable.png)
 
-# IsSeekForwardAvailable
+### IsSeekForwardAvailable
 **This return true if seek forward available, Return type Boolean.**
 
 ![IsSeekForwardAvailable](images/IsSeekForwardAvailable.png)
 
-# KeepScreenOn
+### KeepScreenOn
 **Keep device screen always on.**
 
 ![KeepScreenOn](images/KeepScreenOn.png)
 
 **Required Boolean**
 
-# MaxVolume
+### MaxVolume
 **This return device maximum volume, Return type Number.**
 
 ![MaxVolume](images/MaxVolume.png)
 
-# MinVolume
+### MinVolume
 **This return device minimum volume, Return type Number.**
 
 ![MinVolume](images/MinVolume.png)
 
-# PauseAtAndOfMediaItems
+### PauseAtAndOfMediaItems
 **Pause playback after each MediaItem/MediaSource.**
 
 ![PauseAtAndOfMediaItems](images/PauseAtAndOfMediaItems.png)
 
 **Required Boolean**
 
-# PlaybackSpeed
+### PlaybackSpeed
 **Set playback speed, Which speed player should play.**
 
 ![PlaybackSpeed](images/PlaybackSpeed.png)
 
 **Required Number**
 
-# PlayWhenReady
+### PlayWhenReady
 **Set play when playback is ready.**
 
 ![PlayWhenReady](images/PlayWhenReady.png)
 
 **Required Boolean**
 
-# RepeatMode
+### RepeatMode
 **Set Repeat Mode.**
 
 ![RepeatMode](images/RepeatMode.png)
 
 **Required**
-# RepeatModes
+### RepeatModes
 
 ![RepeatModes](images/RepeatModes.png)
 
-# RewindMs
+### RewindMs
 **Set Rewind in milliseconds, How should rewind after calling Rewind function.**
 
 ![RewindMS](images/RewindMS.png)
 
 **Required Number**
 
-# ResizeMode
+### ResizeMode
 **Set Resize Mode.**
 
 ![ResizeMode](images/ResizeMode.png)
 
 **Required**
-# ResizeModes
+### ResizeModes
 
 ![ResizeModes](images/ResizeModes.png)
 
-# ShowBuffering
+### ShowBuffering
 **Set when buffering show.**
 
 ![ShowBuffering](images/ShowBuffering.png)
@@ -877,41 +877,41 @@ ms = **Number**
 **Required**
 ![BufferingModes](images/BufferingModes.png)
 
-# Buttons
+## Buttons
 **Set True if want to show else False.**
 
 **Required Boolean**
 
-# ShowFullscreenButton
+### ShowFullscreenButton
 
 ![ShowFullscreenButton](images/ShowFullscreenButton.png)
 
-# ShowNextButton
+### ShowNextButton
 
 ![ShowNextButton](images/ShowNextButton.png)
 
-# ShowPreviousButton
+### ShowPreviousButton
 
 ![ShowPreviousButton](images/ShowPreviousButton.png)    
 
-# ShowSettingsButton
+### ShowSettingsButton
 
 ![ShowSettingsButton](images/ShowSettingsButton.png)    
 
-# ShowShuffleButton
+### ShowShuffleButton
 
 ![ShowShuffleButton](images/ShowShuffleButton.png)    
 
-# ShowSubtitleButton
+### ShowSubtitleButton
 
 ![ShowSubtitleButton](images/ShowSubtitleButton.png)    
 
-# ShowVideoTracksButton
+### ShowVideoTracksButton
 
 ![ShowVideoTracksButton](images/ShowVideoTracksButton.png)    
 
 
-# TotalBufferedDuration
+### TotalBufferedDuration
 **This return total buffered duration in milliseconds, Return type Number.**
 
 ![TotalBufferedDuration](images/TotalBufferedDuration.png)
