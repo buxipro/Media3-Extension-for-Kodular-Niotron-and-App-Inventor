@@ -7,11 +7,13 @@ Our extension support all Media protocols like MP4, HLS, DASH, RTSP and SmoothSt
 
 ✔️ **Support all DRM protected media's.**   
 
+✔️ **Most highlighted feature is developer can create custom controls, Any type he/she want..**   
+
 ✔️ **Default Controls.**
 
 ![DefaultControls](images/Default_Controls.png)
 
-✔️ **Developer can create custom controls, Any type he/she want.**   
+✔️ **Custom Controls**   
 
 ![CustomControls](images/Custom_Controls.png)
 
