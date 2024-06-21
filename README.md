@@ -263,13 +263,25 @@ playerLayout = **Arrangement**
 defaultControls = **Boolean** Set False if you set CustomControls
 
 ### MovePlayerView
-**Move player view in another layout..**
+**Move player view in another layout.**
 
 ![MovePlayerView](images/MovePlayerView.png)
 
 **Required**    
 newLayout = **Arrangement**    
 
+
+### SetBufferingProgress
+**Set Buffering Progress Layout.**
+
+![SetBufferingProgress](images/SetBufferingProgress.png)
+
+**Required**    
+progressLayout = **Arrangement**    
+
+**BufferingProgress**
+
+![BufferingProgress](images/BufferingProgress.png)
 
 ### CreateTimeBar
 
@@ -919,7 +931,7 @@ ms = **Number**
 
 
 ## Extension specifications:
-<b>Extension size:</b> 4.52MB\
+<b>Extension size:</b> 2.14MB\
 <b>Extension Version:</b> 1.0.0\
 <b>Media3 Library Version:</b> 1.3.1\
 <b>Last amendment:</b> 11 June 2024\
