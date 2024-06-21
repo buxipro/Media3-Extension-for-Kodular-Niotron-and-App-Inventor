@@ -278,6 +278,7 @@ newLayout = **Arrangement**
 
 **Required**    
 progressLayout = **Arrangement**    
+Set **Circle Progress** in VerticalArragement then pass VerticalArragement.
 
 **BufferingProgress**
 
@@ -724,12 +725,6 @@ ms = **Number**
 
 **Required Boolean**
 
-### BufferingColor
-**Set center progress color.**
-
-![BufferingColor](images/BufferingColor.png)
-
-**Required Color**
 
 ### BufferedPercentage
 **Return current BufferedPercentage in Number.**
