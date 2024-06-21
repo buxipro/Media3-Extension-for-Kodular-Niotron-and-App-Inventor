@@ -930,9 +930,9 @@ ms = **Number**
 <b>Extension Version:</b> 1.0.0\
 <b>Media3 Library Version:</b> 1.3.1\
 <b>Last amendment:</b> 11 June 2024\
-<b>Demo Application:</b> <a href="https://github.com/buxipro/Media3-Extension-for-Kodular-Niotron-and-App-Inventor/raw/main/Media3.apk">Media3.apk</a> \
+<b>Demo Application:</b> <a href="https://github.com/buxipro/Media3-Extension-for-Kodular-Niotron-and-App-Inventor/raw/main/Media3_Niotron.apk">Media3.apk</a> \
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.\
-<b>Extension price:</b> $10 (Pkr 3000)
+<b>Extension price:</b> $10 or (Pkr 2700)
 
 ## 📫 How to reach me ↓
 
